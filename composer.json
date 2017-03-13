@@ -1,0 +1,15 @@
+{
+    "name": "springimport/magento2-module-favicon-bugfix",
+    "description": "Bugfix for favicon .ico format in Magento 2 (We don't recognize or support this file extension type)",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SpringImport\\FaviconBugfix\\": ""
+        }
+    }
+}
