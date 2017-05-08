@@ -3,14 +3,17 @@ Bugfix for favicon `.ico` format in Magento 2.
 
 `We don't recognize or support this file extension type`
 
-Run from Magento 2 root directory:
-
-for enable module:
+Enable module:
 ```
 php -f bin/magento module:enable SpringImport_FaviconBugfix
 ```
 
-for update system:
+Disable module:
+```
+php -f bin/magento module:disable SpringImport_FaviconBugfix
+```
+
+Update system:
 ```
 php -f bin/magento setup:upgrade
 ```
