@@ -1,5 +1,5 @@
 # Favicon Bugfix
-Bugfix for favicon `.ico` format in Magento 2.
+Bugfix for favicon `.ico` format in Magento 2. Necessary for Magento `<= 2.1.7`. [Fixed in 2.1.8](http://devdocs.magento.com/guides/v2.1/release-notes/ReleaseNotes2.1.8CE.html).
 
 `We don't recognize or support this file extension type`
 
